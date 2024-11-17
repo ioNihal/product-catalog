@@ -6,6 +6,8 @@ import Footer from "./components/Footer"
 import ProductCatalog from "./pages/ProductCatalog"
 import ProductDetails from "./pages/ProductDetails"
 
+import "./App.css"
+
 const App = () => {
   return (
     <Router>
