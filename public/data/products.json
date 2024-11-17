@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 99.99,
+        "image": "images/headphones.png",
+        "description": "High-quality wireless headphones with noise cancellation."
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "category": "Electronics",
+        "price": 199.99,
+        "image": "images/smartwatch.png",
+        "description": "Stay connected on the go with this stylish smart watch."
+    },
+    {
+        "id": 3,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "price": 25.99,
+        "image": "images/yogamat.png",
+        "description": "Eco-friendly yoga mat with non-slip surface."
+    },
+    {
+        "id": 4,
+        "name": "Running Shoes",
+        "category": "Fitness",
+        "price": 75.49,
+        "image": "images/runningshoes.png",
+        "description": "Comfortable and lightweight running shoes for daily workouts."
+    },
+    {
+        "id": 5,
+        "name": "Coffee Maker",
+        "category": "Home Appliances",
+        "price": 49.99,
+        "image": "images/coffeemaker.png",
+        "description": "Brew your favorite coffee with this compact and efficient coffee maker."
+    },
+    {
+        "id": 6,
+        "name": "Air Purifier",
+        "category": "Home Appliances",
+        "price": 129.99,
+        "image": "images/airpurifier.png",
+        "description": "Improve indoor air quality with this powerful air purifier."
+    },
+    {
+        "id": 7,
+        "name": "Office Chair",
+        "category": "Furniture",
+        "price": 159.99,
+        "image": "images/officechair.png",
+        "description": "Ergonomic office chair with adjustable height and lumbar support."
+    },
+    {
+        "id": 8,
+        "name": "Wooden Desk",
+        "category": "Furniture",
+        "price": 299.99,
+        "image": "images/woodendesk.png",
+        "description": "Spacious wooden desk with a minimalist design."
+    },
+    {
+        "id": 9,
+        "name": "Cooking Set",
+        "category": "Kitchen",
+        "price": 89.99,
+        "image": "images/cookingset.png",
+        "description": "Complete cooking set with non-stick pots and pans."
+    },
+    {
+        "id": 10,
+        "name": "Blender",
+        "category": "Kitchen",
+        "price": 59.99,
+        "image": "images/blender.png",
+        "description": "High-speed blender perfect for smoothies and shakes."
+    },
+    {
+        "id": 11,
+        "name": "Gaming Keyboard",
+        "category": "Electronics",
+        "price": 69.99,
+        "image": "images/gamingkeyboard.png",
+        "description": "RGB mechanical gaming keyboard with customizable keys."
+    },
+    {
+        "id": 12,
+        "name": "Cycling Helmet",
+        "category": "Fitness",
+        "price": 35.99,
+        "image": "images/cyclinghelmet.png",
+        "description": "Lightweight and durable cycling helmet for safety and comfort."
+    }
+]
