@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import "../styles/Footer.css"
+
 const FilterBox = ({ categories, selectedFilters, onFilterChange }) => {
     const handleCheckBoxChange = (category) => {
         if (selectedFilters.includes(category)) {

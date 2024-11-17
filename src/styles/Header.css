@@ -1,0 +1,12 @@
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.header-content .brand-name a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,21 @@
+.filter-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.filter-box h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-option input {
+    margin-right: 5px;
+}
