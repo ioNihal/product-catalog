@@ -8,7 +8,7 @@ function Header() {
         <header className="header">
             <div className="header-content">
                 <h1 className="brand-name">
-                    <Link to="/">Product Catalog</Link>
+                    <Link to="/">PRODUCT CATALOG</Link>
                 </h1>
             </div>
         </header>

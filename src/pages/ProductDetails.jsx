@@ -36,7 +36,7 @@ const ProductDetails = () => {
         <div className="product-details">
             <button className="back-button" onClick={() => { navigate(-1) }}>BACK</button>
             <div className="d-product-image">
-                <img src={product.image} alt={product.name} />
+                <img src={`../${product.image}`} alt={product.name} />
             </div>
             <div className="d-product-info">
                 <h1>{product.name}</h1>
