@@ -8,10 +8,6 @@ body,
   background-color: #FEFAF6;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 .app {
   display: grid;
   grid-template-columns: 1fr;
@@ -69,4 +65,128 @@ footer {
 
   border-radius: 5px;
   background-color: #F0EBE3;
+}
+
+.product-details {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #F0EBE3;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  overflow-y: auto;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background-color: #4a4947;
+  color: #eadbc8;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.back-button:hover {
+  background-color: #393836;
+}
+
+@media screen and (max-width: 480px) {
+  .back-button {
+    top: 10px;
+    left: 10px;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+}
+
+.d-product-image {
+  flex: 1 1 40%;
+  max-width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.d-product-info {
+  flex: 2 1 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: "Work Sans", sans-serif;
+  color: #4a4947;
+}
+
+.d-product-info h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.d-category,
+.d-price,
+.d-description {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .d-product-image,
+  .d-product-info {
+    flex: none;
+    width: 100%;
+  }
+
+  .d-product-info {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .back-button {
+    margin-bottom: 15px;
+    align-self: flex-start;
+  }
+
+  .d-product-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .d-category,
+  .d-price,
+  .d-description {
+    font-size: 0.9rem;
+  }
 }

@@ -5,7 +5,7 @@
         "category": "Electronics",
         "price": 99.99,
         "image": "images/headphones.png",
-        "description": "High-quality wireless headphones with noise cancellation."
+        "description": "Experience immersive audio with these high-quality wireless headphones. Designed for maximum comfort, they feature plush ear cushions and a lightweight frame. The active noise cancellation lets you focus on your music or calls in noisy environments. With a long battery life, you can enjoy uninterrupted listening throughout the day. Perfect for work, travel, or leisure."
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "category": "Electronics",
         "price": 199.99,
         "image": "images/smartwatch.png",
-        "description": "Stay connected on the go with this stylish smart watch."
+        "description": "Keep your life organized with this sleek and versatile smartwatch. Track your fitness goals, monitor health metrics, and receive notifications on the go. The vibrant touchscreen display offers easy navigation and customization options. Durable and water-resistant, it's built to keep up with your active lifestyle. A perfect blend of technology and style."
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "category": "Fitness",
         "price": 25.99,
         "image": "images/yogamat.png",
-        "description": "Eco-friendly yoga mat with non-slip surface."
+        "description": "Enhance your yoga sessions with this eco-friendly yoga mat. Crafted with a non-slip surface, it ensures safety and stability during poses. The lightweight design makes it easy to carry to your studio or gym. It provides ample cushioning to protect your joints and enhance comfort. Ideal for all fitness levels, from beginners to experts."
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "category": "Fitness",
         "price": 75.49,
         "image": "images/runningshoes.png",
-        "description": "Comfortable and lightweight running shoes for daily workouts."
+        "description": "Step into comfort with these lightweight and breathable running shoes. Designed to reduce impact, they feature cushioned soles and supportive arches for long runs. The durable materials ensure lasting performance on various terrains. Stylish and functional, they're perfect for workouts, casual wear, or outdoor adventures. Available in multiple colors to match your style."
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "category": "Home Appliances",
         "price": 49.99,
         "image": "images/coffeemaker.png",
-        "description": "Brew your favorite coffee with this compact and efficient coffee maker."
+        "description": "Brew the perfect cup of coffee every morning with this compact coffee maker. Featuring a quick brewing process, it saves time while delivering rich and flavorful coffee. Its user-friendly design makes it easy to operate and clean. The space-saving structure fits neatly on any kitchen counter. A must-have for every coffee lover."
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "category": "Home Appliances",
         "price": 129.99,
         "image": "images/airpurifier.png",
-        "description": "Improve indoor air quality with this powerful air purifier."
+        "description": "Breathe easier with this powerful air purifier designed to improve indoor air quality. It effectively removes allergens, dust, and pollutants, ensuring a healthier environment. The quiet operation makes it suitable for bedrooms and living spaces. Its sleek design blends seamlessly with modern interiors. Perfect for families, pet owners, or anyone seeking cleaner air."
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "category": "Furniture",
         "price": 159.99,
         "image": "images/officechair.png",
-        "description": "Ergonomic office chair with adjustable height and lumbar support."
+        "description": "Work comfortably with this ergonomic office chair featuring lumbar support. Adjustable height and armrests ensure personalized comfort during long hours. The breathable mesh back promotes airflow, preventing discomfort. Its sturdy construction supports various body types while maintaining a sleek look. Enhance your productivity with this functional and stylish chair."
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "category": "Furniture",
         "price": 299.99,
         "image": "images/woodendesk.png",
-        "description": "Spacious wooden desk with a minimalist design."
+        "description": "Create a productive workspace with this spacious wooden desk. Its minimalist design complements any decor style while providing ample surface area for your essentials. The sturdy build ensures stability and durability for years to come. With smooth edges and a polished finish, it combines aesthetics with functionality. Ideal for home offices or study rooms."
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "category": "Kitchen",
         "price": 89.99,
         "image": "images/cookingset.png",
-        "description": "Complete cooking set with non-stick pots and pans."
+        "description": "Upgrade your kitchen with this complete cooking set featuring non-stick pots and pans. Perfect for preparing a variety of meals, it ensures even heat distribution for consistent results. The ergonomic handles offer a comfortable grip while cooking. Easy to clean and dishwasher-safe, it simplifies your kitchen tasks. Ideal for beginners and seasoned chefs alike."
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "category": "Kitchen",
         "price": 59.99,
         "image": "images/blender.png",
-        "description": "High-speed blender perfect for smoothies and shakes."
+        "description": "Make delicious smoothies and shakes effortlessly with this high-speed blender. Its powerful motor crushes ice and blends ingredients smoothly. The compact design saves counter space without compromising functionality. Easy-to-clean detachable parts make maintenance a breeze. A versatile tool for healthy eating and creative recipes."
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "category": "Electronics",
         "price": 69.99,
         "image": "images/gamingkeyboard.png",
-        "description": "RGB mechanical gaming keyboard with customizable keys."
+        "description": "Elevate your gaming experience with this RGB mechanical keyboard. Customizable keys and dynamic lighting effects add a personal touch to your setup. The tactile feedback ensures precise control during intense gameplay. Built with durable materials, it withstands hours of use. A must-have accessory for serious gamers."
     },
     {
         "id": 12,
@@ -93,6 +93,6 @@
         "category": "Fitness",
         "price": 35.99,
         "image": "images/cyclinghelmet.png",
-        "description": "Lightweight and durable cycling helmet for safety and comfort."
+        "description": "Stay safe and comfortable on your cycling adventures with this lightweight helmet. It features a sturdy outer shell and ample ventilation for breathability. The adjustable straps ensure a secure and snug fit. Designed for both safety and style, it suits riders of all skill levels. Perfect for commuting, racing, or casual rides."
     }
 ]

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 
 import "../styles/FilterBox.css"
 
@@ -22,7 +22,7 @@ const FilterBox = ({ categories, selectedFilters, onFilterChange }) => {
                             checked={selectedFilters.includes(category)}
                             onChange={() => handleCheckBoxChange(category)}
                         />
-                        {category}
+                        {category.toUpperCase()}
                     </label>
                 ))}
             </div>

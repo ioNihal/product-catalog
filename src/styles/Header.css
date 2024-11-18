@@ -1,6 +1,13 @@
+.header-content {
+    width: 100%;
+    text-align: center;
+}
 
 .header-content .brand-name a {
-    font-family: "Squada One", sans-serif;
+    font-family: "Aboreto", system-ui;
     font-weight: 400;
     font-style: normal;
+
+    text-decoration: none;
+    color: rgb(94, 32, 32);
 }

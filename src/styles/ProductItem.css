@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
 
-    width: calc(100% / 4 - 20px);
-    min-width: 200px;
+    width: calc(100vw / 4 - 20px);
+    min-width: 100px;
     max-width: 300px;
     max-height: 400px;
     margin: 10px;

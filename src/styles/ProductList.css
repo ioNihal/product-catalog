@@ -1,0 +1,8 @@
+.product-list::-webkit-scrollbar {
+    background: #4A4947;
+    width: 10px
+}
+
+.product-list::-webkit-scrollbar-thumb {
+    background: #D8D2C2;
+}

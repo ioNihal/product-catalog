@@ -1,24 +1,25 @@
 .filter-box {
     border: 1px solid #ddd;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     background-color: #fff;
+
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .filter-box h3 {
-    margin-top: 0;
-    font-size: 1.2em;
-
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    margin: 0 0 5px 0;
+    font-size: 1rem;
 }
 
 .filter-options {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    font-size: 12px;
+    
 }
 
 .filter-option input {
