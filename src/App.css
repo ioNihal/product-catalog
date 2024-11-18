@@ -1,94 +1,69 @@
-html, body, #root {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
-  overflow-y: auto;
   width: 100vw;
   height: 100vh;
+  background-color: #f3f2f1;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-
-
-a {
-  text-decoration: none;
-  color: inherit;
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
+header {
+  grid-row: 1;
+  width: 100%;
+  background: #fff;
 }
 
-button:hover {
-  background-color: #0056b3;
+.content-container {
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #f9f9f9;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+footer {
+  grid-row: 3;
+  width: 100%;
+  background: #fff;
+  text-align: center;
 }
 
 .product-catalog {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .catalog-controls {
+  flex-shrink: 0;
+  width: 90%;
+  margin: 1rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
 }
 
-.product-details {
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  margin: 20px auto;
-}
-
-.product-details .d-product-image img {
-  max-height: 300px;
+.product-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 90%;
   margin: 0 auto;
-  display: block;
-}
-
-.product-details .d-product-info {
-  margin-top: 20px;
-}
-
-.product-details .d-product-info h1 {
-  margin: 0;
-  font-size: 1.8em;
-  color: #007bff;
-}
-
-.product-details .d-category,
-.product-details .d-price,
-.product-details .d-description {
-  margin: 10px 0;
-  font-size: 1em;
-}
-
-.product-details .back-button {
-  margin-bottom: 15px;
-  font-size: 1em;
-}
-
-
-@media (max-width: 768px) {
-  .catalog-controls {
-    flex-direction: column;
-    gap: 10px;
-  }
+  padding: 1rem;
+  overflow-y: auto;
 }

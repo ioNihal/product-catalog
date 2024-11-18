@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import "../styles/Footer.css"
+import "../styles/FilterBox.css"
 
 const FilterBox = ({ categories, selectedFilters, onFilterChange }) => {
     const handleCheckBoxChange = (category) => {
