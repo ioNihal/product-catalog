@@ -25,13 +25,76 @@ const ProductCatalog = () => {
         };
         fetchProducts();
     }, []);
-
     if (loading) {
-        return <div style={{height: "80vh" }}>Loading product details....</div>;
+        return (
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "80vh",
+                backgroundColor: "#f9f9f9",
+                fontFamily: "Aboreto, system-ui",
+                fontSize: "1.2rem",
+                color: "#4A4947"
+            }}>
+                <div style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center"
+                }}>
+                    <div style={{
+                        width: "50px",
+                        height: "50px",
+                        border: "5px solid #eadbc8",
+                        borderTop: "5px solid #4a4947",
+                        borderRadius: "50%",
+                        animation: "spin 1s linear infinite"
+                    }} />
+                    <p>Loading product details...</p>
+                </div>
+                <style>
+                    {`@keyframes spin {
+                        0% { transform: rotate(0deg); }
+                        100% { transform: rotate(360deg); }
+                    }`}
+                </style>
+            </div>
+        );
     }
 
+
     if (!products) {
-        return <div>Product not found!</div>;
+        return (
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "80vh",
+                backgroundColor: "#FEFAF6",
+                fontFamily: "Aboreto, system-ui",
+                fontSize: "1.2rem",
+                color: "#4A4947"
+            }}>
+                <h2>Oops! Product not found.</h2>
+                <p>We couldn't find the product you're looking for.</p>
+                <button
+                    style={{
+                        marginTop: "1rem",
+                        padding: "10px 15px",
+                        backgroundColor: "#4A4947",
+                        color: "#EADBC8",
+                        border: "none",
+                        borderRadius: "5px",
+                        cursor: "pointer",
+                        fontSize: "1rem"
+                    }}
+                    onClick={() => navigate(-1)}
+                >
+                    Go Back
+                </button>
+            </div>
+        );
     }
 
 
