@@ -1,27 +1,87 @@
-.filter-box {
-    border: 1px solid #ddd;
-    padding: 10px;
+.filter-container {
+    position: relative;
+    background-color: #d8d8d8;
+    padding: 4px;
     border-radius: 5px;
-    background-color: #fff;
-
-    font-family: "Aboreto", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    display: grid;
+    place-items: center;
 }
 
-.filter-box h3 {
-    margin: 0 0 5px 0;
+.filter-icon {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #4a4947;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.filter-icon:hover {
+    color: #eadbc8;
+}
+
+.popover {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 10;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Aboreto", system-ui;
+}
+
+.popover h3 {
+    margin: 0 0 10px 0;
     font-size: 1rem;
 }
 
 .filter-options {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-direction: column;
+    gap: 8px;
     font-size: 12px;
-    
 }
 
 .filter-option input {
     margin-right: 5px;
+}
+
+.close-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a4947;
+    color: #eadbc8;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+    background-color: #393836;
+}
+
+@media screen and (max-width: 768px) {
+    .popover {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .filter-icon {
+        font-size: 1.2rem;
+    }
+
+    .popover {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
 }

@@ -1,3 +1,4 @@
+
 html,
 body,
 #root {
@@ -43,12 +44,14 @@ footer {
   height: 100%;
 }
 
+
 .catalog-controls {
   flex-shrink: 0;
   width: 90%;
   margin: 1rem auto;
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -62,10 +65,10 @@ footer {
   margin: 0 auto;
   padding: 1rem;
   overflow-y: auto;
-
   border-radius: 5px;
   background-color: #F0EBE3;
 }
+
 
 .product-details {
   position: relative;
@@ -83,6 +86,7 @@ footer {
   height: 100%;
   overflow-y: auto;
 }
+
 
 .back-button {
   position: absolute;
@@ -102,15 +106,6 @@ footer {
 
 .back-button:hover {
   background-color: #393836;
-}
-
-@media screen and (max-width: 480px) {
-  .back-button {
-    top: 10px;
-    left: 10px;
-    font-size: 0.8rem;
-    padding: 8px 12px;
-  }
 }
 
 .d-product-image {
@@ -153,13 +148,27 @@ footer {
   line-height: 1.6;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
+  .app {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-controls {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .product-list {
+    padding: 0.5rem;
+    width: 100%;
+  }
+
   .product-details {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 0;
-    padding: 1rem;
   }
 
   .d-product-image,
@@ -174,7 +183,34 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+  .catalog-controls {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-list {
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .product-details {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .d-product-image,
+  .d-product-info {
+    flex: none;
+    width: 100%;
+  }
+
+  .d-product-info {
+    text-align: center;
+    padding: 1rem;
+  }
+
   .back-button {
     margin-bottom: 15px;
     align-self: flex-start;
@@ -188,5 +224,42 @@ footer {
   .d-price,
   .d-description {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .catalog-controls {
+    gap: 1rem;
+  }
+
+  .filter-icon {
+    font-size: 1.2rem;
+  }
+
+  .popover {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .back-button {
+    top: 10px;
+    left: 10px;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+
+  .d-product-info h1 {
+    font-size: 1.2rem;
+  }
+
+  .d-category,
+  .d-price,
+  .d-description {
+    font-size: 0.8rem;
+  }
+
+  .product-details {
+    padding: 0.5rem;
   }
 }
