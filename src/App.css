@@ -65,6 +65,7 @@ footer {
   margin: 0 auto;
   padding: 1rem;
   overflow-y: auto;
+  scroll-behavior: smooth;
   border-radius: 5px;
   background-color: #F0EBE3;
 }
@@ -110,7 +111,6 @@ footer {
 
 .d-product-image {
   flex: 1 1 40%;
-  max-width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,6 +122,7 @@ footer {
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f3f1ee;
 }
 
 .d-product-info {
@@ -155,7 +156,7 @@ footer {
   }
 
   .catalog-controls {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 1rem;
   }
@@ -185,8 +186,8 @@ footer {
 
 @media screen and (max-width: 768px) {
   .catalog-controls {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    width: 90%;
   }
 
   .product-list {
@@ -229,17 +230,9 @@ footer {
 
 @media screen and (max-width: 480px) {
   .catalog-controls {
-    gap: 1rem;
-  }
-
-  .filter-icon {
-    font-size: 1.2rem;
-  }
-
-  .popover {
-    width: 100%;
-    left: 0;
-    right: 0;
+    gap: 0.5rem;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .back-button {
@@ -253,6 +246,16 @@ footer {
     font-size: 1.2rem;
   }
 
+  .d-product-info {
+    width: 90%;
+  }
+
+  .d-product-image{
+    width: 50%;
+    margin-top: 1rem;
+    min-width: 100px;
+    min-height: 150px;
+  }
   .d-category,
   .d-price,
   .d-description {
@@ -261,5 +264,7 @@ footer {
 
   .product-details {
     padding: 0.5rem;
+    width: 90vw;
+    justify-content: center;
   }
 }

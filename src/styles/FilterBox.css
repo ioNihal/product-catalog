@@ -17,7 +17,7 @@
 }
 
 .filter-icon:hover {
-    color: #eadbc8;
+    color: #dab88b;
 }
 
 .popover {
@@ -68,9 +68,9 @@
 
 @media screen and (max-width: 768px) {
     .popover {
-        width: 90%;
-        left: 5%;
-        right: 5%;
+        width: 30vw;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -80,8 +80,8 @@
     }
 
     .popover {
-        width: 100%;
-        left: 0;
+        width: 60vw;
+        left: -55vw;
         right: 0;
     }
 }

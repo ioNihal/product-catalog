@@ -1,7 +1,6 @@
 .header-content {
     width: 100%;
     text-align: center;
-    padding: 1rem;
 }
 
 .header-content .brand-name a {
@@ -21,5 +20,8 @@
 @media screen and (max-width: 480px) {
     .header-content .brand-name a {
         font-size: 1rem;
+    }
+    .brand-name {
+        margin: 0.5rem;
     }
 }

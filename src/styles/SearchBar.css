@@ -15,6 +15,6 @@
 
 @media screen and (max-width: 480px) {
     .search-bar .search-input {
-        max-width: 100%;
+        max-width: 200px;
     }
 }
