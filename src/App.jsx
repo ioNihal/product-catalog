@@ -8,9 +8,11 @@ import ProductDetails from "./pages/ProductDetails"
 
 import "./App.css"
 
+/*App will render as three section header , content, footer
+ and in content we can navigate between productlist & details route */
 const App = () => {
   return (
-    <Router>
+    < Router >
       <div className="app">
         <Header />
         <div className="content-container">
@@ -21,7 +23,7 @@ const App = () => {
         </div>
         <Footer />
       </div>
-    </Router>
+    </Router >
   );
 }
 
