@@ -2,7 +2,7 @@ First of all, i am just a beginner reactjs developer with only a 1 year of exper
 
 I will guide you through this project and how to run this locally. 
 
-This reactjs project is created using Vite, its optimized for a faster development. 
+This reactjs project is created using Vite, its optimized for a faster development. And i development this own IDX cloud environment.
 
 ## To run this project locally
 
@@ -57,6 +57,17 @@ When you have a good design and to make it responsive very easily, then you can 
 
 Then i test the page in different devices and screen, like my phone, my siblings phone, tablet, laptop and my own monitor. Also i tested out the free size also
 
+#### Additional Info :
+
+[Raw Pixels](https://www.rawpixel.com/) - used for free high quality PNG's. 
+[TinyPNG](https://tinypng.com/) - used for compressing and optimizing PNG
+
+I have also tried to use the new HTML Popover API for filterbox popup. But as it just released few days ago, msstering its css position was challenging
+
+[HTML popover API](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover) you can check it out if you would like to
+
+
+### Sample screen shots:
 
 
 
