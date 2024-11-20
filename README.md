@@ -19,6 +19,14 @@ This reactjs project is created using Vite, its optimized for a faster developme
 ```npm run build```
 
 
+## Dependencies used
+
+- react
+- react-dom
+- react-icons
+- react-router-dom
+
+
 
 
 
