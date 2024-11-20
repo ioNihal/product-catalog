@@ -4,13 +4,13 @@ I will guide you through this project and how to run this locally.
 
 This reactjs project is created using Vite, its optimized for a faster development. 
 
-#To run this project locally#
+## To run this project locally
 
-#install required dependencies#
+### install required dependencies
 
 ```npm install```
 
-#To start the local server & preview app#
+### To start the local server & preview app
 
 ```npm run dev```
 
