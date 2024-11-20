@@ -42,8 +42,8 @@ I had no idea how does a SAP catalog page is designed, so i started referring so
 
 Then i asked my friends what color they would like to see here, they gave me some and finally i thought luxury palette might be good looking. 
 
-I used ![ColorHunt](https://colorhunt.co) to find a good color palette. 
-And for fonts i used ![Google Fonts](https://fonts.google.com) for some best matching font, yeah definitely luxury ones
+I used [ColorHunt](https://colorhunt.co) to find a good color palette. 
+And for fonts i used [Google Fonts](https://fonts.google.com) for some best matching font, yeah definitely luxury ones
 
 
 
