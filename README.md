@@ -10,9 +10,15 @@ This reactjs project is created using Vite, its optimized for a faster developme
 
 ```npm install```
 
-### To start the local server & preview app
+### To start the local server & to preview
 
 ```npm run dev```
+
+### To build (if needed) 
+
+```npm run build```
+
+
 
 
 
