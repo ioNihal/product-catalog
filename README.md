@@ -38,12 +38,12 @@ After setting up a working model, i got some error when passing props (everytime
 
 ##### Designing :
 
-I had no idea how does a SAP catalog page is designed, so i started referring so many designs on google. But it was all like multi page and all i have to do was add a product list and car and two components ( search and filter), so managing the empty space wqs hard. So finally i made a basic boxy and flex centered design. 
+I had no idea how does a SAP catalog page is designed, so i started referring so many designs on google. But it was all like multi page and all i have to do was add a product list, a card and two components ( search and filter), so managing the empty space was hard. So finally i made a basic boxy and flex centered design. 
 
-Then i asked my friends what color they would like to see here, they gave me some and finally i thought luxury palette might be good looking. 
+Then i asked my friends what color they would like to see here, they gave me some ideas and finally i thought luxury palette might be good. 
 
 I used [ColorHunt](https://colorhunt.co) to find a good color palette. 
-And for fonts i used [Google Fonts](https://fonts.google.com) for some best matching font, yeah definitely luxury ones
+And i used [Google Fonts](https://fonts.google.com) for some best matching font, yeah definitely luxury ones
 
 Finally i made a design which is not very responsive! 
 
@@ -51,7 +51,7 @@ Finally i made a design which is not very responsive!
 
 When you have a good design and to make it responsive very easily, then you can just ask ChatGPT to do it (requires great prompting skills) then we can do our on adjustments in it. 
 
-###### Note - i didn't want to use Bootstrap or Tailwind because i want to master CSS better, and  i prompted ChatGPT to create the loading page to make the development faster. 
+###### Note - i didn't want to use Bootstrap or TailwindCSS because i want to master CSS better, and also i prompted ChatGPT to create the loading page to make the development faster. 
 
 ##### Testing :
 
