@@ -2,7 +2,7 @@ First of all, i am just a beginner reactjs developer with only a 1 year of exper
 
 I will guide you through this project and how to run this locally. 
 
-This reactjs project is created using Vite, its optimized for a faster development. And i development this own IDX cloud environment.
+This reactjs project is created using Vite, its optimized for a faster development. And i developed this project on IDX cloud environment.
 
 ## To run this project locally
 
